@@ -31,6 +31,7 @@ add_convenience_library (common
     os_backtrace.cpp
     os_crtdbg.cpp
     highlight.cpp
+    globj_records.cpp
 )
 
 target_link_libraries (common

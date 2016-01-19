@@ -31,6 +31,7 @@ add_executable (apitrace
     cli_trim_auto.cpp
     cli_trim_auto_analyzer.cpp
     cli_resources.cpp
+    cli_leak_trace.cpp
 )
 
 target_link_libraries (apitrace
